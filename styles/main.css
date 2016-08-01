@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+
+}
+html, body {
+    background-color: #eee;
+    margin: 0;
+    padding:  0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*** HEADER ***/
+header {
+    color: #999;
+    padding: 20px;  
+}
+
+/*** NAVIGATION ***/
+nav {
+    height: 20px;
+    background-color: #666;
+    color: #999;
+    text-transform: uppercase;
+    font-weight: bold;  
+    padding: 10px 15px;
+
+}
+
+#navigation{
+    text-align: right;
+    position: relative;
+    top: -24px;
+    font-size: 0.8em;
+}
+
+.navbar ul, li {
+    display: inline;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color:#fff;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #ccc;
+    font-weight: normal;
+    position: relative;
+    top: -3px;
+
+}
+
+/*** CONTENT ***/
+
+ #search {
+    background-color: #ccc;
+}
+
+#searchWrapper{
+    width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    position: relative;
+    top: 40px;
+    background-color: #fff;
+    margin-bottom: 50px; 
+}
+
+#resultsWrapper{
+    background-color: #fff;
+    width: 75%;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.searchBox {
+	width: 75%;
+	height: 20px;
+	padding:6px 10px 6px 15px;
+	font-size: 1.5em;
+	color: #999;
+    border: 1px solid #ccc;
+
+}
+
+#resultsWrapper{
+    margin: 0 auto;
+    width: 600px;
+    padding-top: 50px;
+    
+}
+
+
+#resultsWrapper li{
+    display: block;
+}
+
+/*** LOGIN ***/
+#loginWrapper {
+    width: 290px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    top: 40px;
+    background-color: #fff;
+}
+
+.login, .search, .results, .register {
+    color: #01A9DB;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    border-left: 10px solid #01A9DB;
+    padding-left: 20px;
+    position: relative;
+    left: -22px;
+}
+
+.search, .results{
+    left: -44px;
+}
+
+.loginContainer, .registerContainer{
+    display: block;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+	color: #999;
+    padding-left: 10px;
+}
+
+.loginInput, .regsiterInput{
+    width: 250px;
+	height: 20px;
+	padding:5px 7px;
+	font-size: 1em;
+	color: #999;
+    border-radius:3px; 
+	-moz-border-radius:3px; 
+	-webkit-border-radius:3px; 
+    border: 1px solid #ccc;
+}
+
+.loginBtn, .searchBtn {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 1em;
+  background-color: #01A9DB;
+  padding: 8px 15px;
+  text-decoration: none;
+  border: solid;
+}
+
+.loginBtn:hover, .searchBtn:hover {
+  background-color: #7DC3D9;
+  text-decoration: none;
+}
+
+.searchBtn{
+    position: relative;
+    top: -3px;
+}
+
+
+#pleaseLogIn{
+    z-index:1;
+    margin: 0 auto;
+    width: 350px;
+    position: relative;
+    top: -70px;
+}
+
+#overlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    background-color: #000;
+}
+
+.pleaseRegister{
+    font-size: 0.8em;
+}
+
+.pleaseRegister a{
+    color: #01A9DB;
+}
+
+/*** REGISTER ***/
+.loginContainer{
+    margin-bottom:20px;
+}
+
+/*** MISC ***/
+
+.errorText, li{
+    font-size: 0.9em;
+    color: #B44B83;
+}
+
+.errorContainer{
+     margin-bottom:20px;
+     padding-left: 10px;
+}
+
+.errorField{
+    border: 1px solid #B44B83;
+    background-color: #eee;
+}
+
+/*** JQUERY VALIDATION ***/
+input.error {
+    border: 1px solid #B44B83;
+    background-color: #eee;
+}
+
+label.error{
+    font-size: 0.8em;
+    color: #B44B83;
+}
