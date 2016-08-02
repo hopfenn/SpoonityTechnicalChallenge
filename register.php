@@ -3,7 +3,7 @@
 <?php include 'layout/header.php'; ?>
 <script type="text/javascript">
 $(document).ready(function(){
-    validateRegistration();
+   validateRegistration();
 });
 </script>
 <?php 

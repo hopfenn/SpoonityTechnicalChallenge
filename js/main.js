@@ -43,7 +43,7 @@
 		}, 'Please enter a valid email address.');
 		jQuery.validator.addMethod("validPassword", function(value, element) {
     		return this.optional( element ) || /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,16}$/.test( value );
-		}, 'Please enter a valid password.');
+		}, 'Please enter a valid password (minimum 8 characters, at least one capital letter, and at least one digit).');
 
 		
 	}//validateRegistration()
